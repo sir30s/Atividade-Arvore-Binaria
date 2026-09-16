@@ -79,7 +79,6 @@ class ArvoreBinaria {
         return atual;
     }
 
-    // percurso em ordem, só para conseguirmos ver o estado da árvore nos exemplos
     public void imprimirEmOrdem() {
         imprimirEmOrdem(raiz);
         System.out.println();
